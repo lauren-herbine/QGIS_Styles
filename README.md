@@ -1,4 +1,4 @@
-# QGIS_Styles
+# QGIS Styles
 Lauren's practice in QGIS styling
 
 ## Resources
