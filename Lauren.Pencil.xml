@@ -1,0 +1,127 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="line" clip_to_extent="1" force_rhr="0" name="LaurenPencil" alpha="1" tags="Lauren">
+      <data_defined_properties>
+        <Option type="Map">
+          <Option type="QString" name="name" value=""/>
+          <Option name="properties"/>
+          <Option type="QString" name="type" value="collection"/>
+        </Option>
+      </data_defined_properties>
+      <layer locked="0" class="MarkerLine" enabled="1" pass="0">
+        <Option type="Map">
+          <Option type="QString" name="average_angle_length" value="1"/>
+          <Option type="QString" name="average_angle_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+          <Option type="QString" name="average_angle_unit" value="MM"/>
+          <Option type="QString" name="interval" value="0.8"/>
+          <Option type="QString" name="interval_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+          <Option type="QString" name="interval_unit" value="Point"/>
+          <Option type="QString" name="offset" value="0"/>
+          <Option type="QString" name="offset_along_line" value="0"/>
+          <Option type="QString" name="offset_along_line_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+          <Option type="QString" name="offset_along_line_unit" value="MM"/>
+          <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+          <Option type="QString" name="offset_unit" value="MM"/>
+          <Option type="QString" name="placement" value="interval"/>
+          <Option type="QString" name="ring_filter" value="0"/>
+          <Option type="QString" name="rotate" value="1"/>
+        </Option>
+        <prop v="1" k="average_angle_length"/>
+        <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
+        <prop v="MM" k="average_angle_unit"/>
+        <prop v="0.8" k="interval"/>
+        <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
+        <prop v="Point" k="interval_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="0" k="offset_along_line"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
+        <prop v="MM" k="offset_along_line_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="interval" k="placement"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="1" k="rotate"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol type="marker" clip_to_extent="1" force_rhr="0" name="@LaurenPencil@0" alpha="1">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+            <Option type="Map">
+              <Option type="QString" name="angle" value="0"/>
+              <Option type="QString" name="color" value="85,87,95,215"/>
+              <Option type="QString" name="horizontal_anchor_point" value="1"/>
+              <Option type="QString" name="joinstyle" value="bevel"/>
+              <Option type="QString" name="name" value="star"/>
+              <Option type="QString" name="offset" value="0,0"/>
+              <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="offset_unit" value="MM"/>
+              <Option type="QString" name="outline_color" value="35,35,35,255"/>
+              <Option type="QString" name="outline_style" value="no"/>
+              <Option type="QString" name="outline_width" value="0"/>
+              <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="outline_width_unit" value="MM"/>
+              <Option type="QString" name="scale_method" value="diameter"/>
+              <Option type="QString" name="size" value="0.7"/>
+              <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="size_unit" value="MM"/>
+              <Option type="QString" name="vertical_anchor_point" value="1"/>
+            </Option>
+            <prop v="0" k="angle"/>
+            <prop v="85,87,95,215" k="color"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="star" k="name"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="diameter" k="scale_method"/>
+            <prop v="0.7" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option type="Map" name="properties">
+                  <Option type="Map" name="fillColor">
+                    <Option type="bool" name="active" value="true"/>
+                    <Option type="QString" name="expression" value="set_color_part(&#xa;@symbol_color,'value',&#xa;rand(30,80)&#xa;)"/>
+                    <Option type="int" name="type" value="3"/>
+                  </Option>
+                  <Option type="Map" name="offset">
+                    <Option type="bool" name="active" value="true"/>
+                    <Option type="QString" name="expression" value="array(0, if(rand(0,1),1,-1) * scale_exp(&#xa;randf(0,1),0,1,0,&#xa;-- Here you can set the character of the line&#xa;&#x9;0.9 -- This is the max offset from center line&#xa;,&#xa;&#x9;4 -- This is the scale exponential factor&#xa;))"/>
+                    <Option type="int" name="type" value="3"/>
+                  </Option>
+                </Option>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+  <symbols3d/>
+</qgis_style>
